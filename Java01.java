@@ -1,3 +1,7 @@
+// History:
+// In 1991, Java is developed bt Sun Microsystems in US and "James Gostling" who was one of the founders of Java. He initially called it "Oak".
+// He made a Java as a purely ojbect oriented language(OOPs).
+
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
