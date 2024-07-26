@@ -1,5 +1,7 @@
 // Day : 03 Variables and Data Types
 
+// Quick Quiz : WAP to add three numbers?
+
 public class Java3 
 {
     public static void main(String[] args) {
