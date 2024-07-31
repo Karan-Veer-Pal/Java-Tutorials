@@ -2,7 +2,7 @@
 
 // Quick Quiz : WAP to add three numbers?
 
-public class Java3 
+public class Java03 
 {
     public static void main(String[] args) {
         int num1 = 7; 
