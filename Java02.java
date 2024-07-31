@@ -1,6 +1,6 @@
 // Day : 02 Basic Structure of a Java Program, Understanding our First Java Hello World Program
 
-public class Java2 {
+public class Java02 {
     public static void main(String[] args) {
         System.out.println("Hello World and welcome!");
 
