@@ -1,7 +1,7 @@
 // Day : 04 Literals : A constant value which can be assigned to the variable is called as a Literal.
 // The value which can be stroed in any variables called Literal.
 
-public class Java4
+public class Java04
 {
     public static void main(String[] args) {
         byte age = 34; // byte literals
