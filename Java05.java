@@ -12,6 +12,7 @@ public class Java05
         System.out.println("Taking input from the user : ");
         Scanner sc = new Scanner(System.in); // It is a object of the Scanner class
 
+//      For add two integer number : 
         System.out.println("Enter the value of number 1 : ");
         int a = sc.nextInt();
         System.out.println("Enter the value of number 2 : ");
@@ -19,6 +20,7 @@ public class Java05
 
         int sum = a + b;
 
+//        For add two Floating number :
 //        System.out.println("Enter the value of number 1 : ");
 //        float a = sc.nextFloat();
 //        System.out.println("Enter the value of number 2 : ");
