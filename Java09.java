@@ -1,5 +1,9 @@
 // Day : 09 Associativity of Operators
 
+// Presedence of Operator : The operator are applied and evaluated based on precedence. For example (+,-) has less precedence as compared to (*,/). Hence * & / are evaluated first. In case we like to change this order we use parenthesis.
+
+// Associativity : Associativity tells the direction of execution of operators. It can either to left to right or right to left. 
+
 // Precedence Level :
 // 1 Parenthesis
 // 2 *, /, %
