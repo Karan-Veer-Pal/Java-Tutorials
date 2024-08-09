@@ -1,5 +1,4 @@
-
-// Day : 07 Chapter : 02 Practice Set
+// Day : 12 Chapter : 02 Practice Set
 
 import java.util.Scanner;
 
