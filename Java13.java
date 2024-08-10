@@ -27,7 +27,10 @@ public class Java13
     }
 }
 
-// Format Specifier : Format specifiers tell the compiler about the type of data that must be given or input and the type of data that must be printed on the screen.
+// Format Specifier : Format specifiers tell the compiler about the type of data that must be given or input and the type of data that must be printed on the screen : %c -> for Character, %d -> for Integer, %f -> for Float/Double, %s -> for String.
+// String is a sequence of characters. A string is instantiated as follows :
+// String name;
+// name = new String("Karan");
 
-
-
+// In Java, String is a class, it is not a primitive data type. But Java has a special support for string that's why you can use it like a primitive data type in java(like a normal data type).
+// String a immutable, they can't be changed. Eg : We want to make a "string" then you can't changed the same object, Yes you can make a copy of it and change it.
