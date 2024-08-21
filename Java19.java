@@ -142,7 +142,6 @@ public class Java19
 
         System.out.println("Enter any Year : ");
         int year = variable.nextInt();
-//        year = ((year % 4 == 0 && year % 100 != 0)||(y%400==0))?1:0;
         if((year % 4 == 0 && year % 100 != 0) || (year % 400 == 0))
         {
             System.out.println("Yes! This is Leap Year.");
