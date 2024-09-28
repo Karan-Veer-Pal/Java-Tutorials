@@ -1,6 +1,7 @@
 // Day : 51 Exercise : 04 Online Library : Solution by Me :
 
-class Library {
+class Library 
+{
     // Properties to store available and issued books
     private String[] availableBooks;
     private String[] issuedBooks;
@@ -8,7 +9,8 @@ class Library {
     private int issuedCount;
 
     // Constructor to initialize the library with a certain capacity
-    public Library(int capacity) {
+    public Library(int capacity) 
+    {
         availableBooks = new String[capacity]; // Array to store available books
         issuedBooks = new String[capacity];    // Array to store issued books
         availableCount = 0; // Count of available books
@@ -16,20 +18,27 @@ class Library {
     }
 
     // Method to add a book to the library
-    public void addBook(String book) {
-        if (availableCount < availableBooks.length) {
+    public void addBook(String book) 
+    {
+        if (availableCount < availableBooks.length)
+        {
             availableBooks[availableCount] = book; // Add book to availableBooks array
             availableCount++;
             System.out.println(book + " has been added to the library.");
-        } else {
+        } 
+        else 
+        {
             System.out.println("Library is full, cannot add more books.");
         }
     }
 
     // Method to issue a book from the library
-    public void issueBook(String book) {
-        for (int i = 0; i < availableCount; i++) {
-            if (availableBooks[i].equals(book)) {
+    public void issueBook(String book) 
+    {
+        for (int i = 0; i < availableCount; i++) 
+        {
+            if (availableBooks[i].equals(book))
+            {
                 // Move the book to issuedBooks array
                 issuedBooks[issuedCount] = book;
                 issuedCount++;
@@ -45,9 +54,12 @@ class Library {
     }
 
     // Method to return a book to the library
-    public void returnBook(String book) {
-        for (int i = 0; i < issuedCount; i++) {
-            if (issuedBooks[i].equals(book)) {
+    public void returnBook(String book) 
+    {
+        for (int i = 0; i < issuedCount; i++) 
+        {
+            if (issuedBooks[i].equals(book)) 
+            {
                 // Move the book back to availableBooks array
                 availableBooks[availableCount] = book;
                 availableCount++;
@@ -63,24 +75,34 @@ class Library {
     }
 
     // Method to show the list of available books
-    public void showAvailableBooks() {
-        if (availableCount == 0) {
+    public void showAvailableBooks() 
+    {
+        if (availableCount == 0)
+        {
             System.out.println("No books are available in the library.");
-        } else {
+        } 
+        else 
+        {
             System.out.println("Available books in the library:");
-            for (int i = 0; i < availableCount; i++) {
+            for (int i = 0; i < availableCount; i++)
+            {
                 System.out.println((i + 1) + ". " + availableBooks[i]);
             }
         }
     }
 
     // Method to show issued books (optional, useful for tracking)
-    public void showIssuedBooks() {
-        if (issuedCount == 0) {
+    public void showIssuedBooks() 
+    {
+        if (issuedCount == 0) 
+        {
             System.out.println("No books are issued.");
-        } else {
+        } 
+        else
+        {
             System.out.println("Issued books:");
-            for (int i = 0; i < issuedCount; i++) {
+            for (int i = 0; i < issuedCount; i++)
+            {
                 System.out.println((i + 1) + ". " + issuedBooks[i]);
             }
         }
